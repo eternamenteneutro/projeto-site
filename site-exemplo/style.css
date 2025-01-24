@@ -4,7 +4,13 @@
 }
 
 body {
-    background-image: url("imagens/espaco_azul.png");
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
 }
 
 main {
@@ -15,9 +21,22 @@ main {
     margin: auto;
     padding: 10px;
     box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.334);
-    
+    position: relative;
+    z-index: 1;
 }
 
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('imagens/crepusculo_azul.png') repeat;
+    background-size: cover;
+    filter: blur(3px);
+    z-index: -1;
+}
 .titulo {
     text-align: center;
     font-size: 25px;
@@ -33,11 +52,11 @@ main {
 .menu {
     background-color: rgb(11, 94, 188);
     overflow: hidden;
-    position:relative;
-    padding: 0.1%;
+    position:relative;*/
+    padding: 1%;
     top: 0;
     width: 100%;
-    border-radius: 3px;
+    /*border-radius: 3px;*/
     border-width: 2px;
     border-style: solid;
     border-color: #1f0985;
@@ -57,4 +76,10 @@ main {
 
 .menu a:hover {
     background-color: #5100ff;
+}
+
+.contato {
+    padding: auto;
+    width: 10px;
+    height: 10px;
 }
