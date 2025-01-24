@@ -9,13 +9,52 @@ body {
 
 main {
     background-color: rgb(19, 105, 204);
-    width: 500px;
+    border-radius: 5px 5px 5px 5px;
+    width: 70vh;
+    height: 100vh;
     margin: auto;
     padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.334);
+    box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.334);
+    
 }
-.card{
-    width: 300px;
-    height: 100px;
 
+.titulo {
+    text-align: center;
+    font-size: 25px;
+}
+
+.card{
+    padding: auto;
+    width: 60%;
+    height: 20%;
+    opacity: 100%;
+}
+
+.menu {
+    background-color: rgb(11, 94, 188);
+    overflow: hidden;
+    position:relative;
+    padding: 0.1%;
+    top: 0;
+    width: 100%;
+    border-radius: 3px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: #1f0985;
+}
+
+.menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu a:hover {
+    background-color: #5100ff;
 }
