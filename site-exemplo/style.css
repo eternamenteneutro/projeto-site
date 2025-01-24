@@ -4,13 +4,18 @@
 }
 
 body {
-    background-color: rgb(245, 178, 120);
+    background-image: url("imagens/espaco_azul.png");
 }
 
 main {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(19, 105, 204);
     width: 500px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.334);
+}
+.card{
+    width: 300px;
+    height: 100px;
+
 }
