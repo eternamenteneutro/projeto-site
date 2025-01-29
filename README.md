@@ -3,7 +3,7 @@
 
  Criado durante uma aula de Git e Github com Gustavo Guanabara.
  ***
- Pagina inicial
+ # ![Pagina inicial](site-exemplo/index.html)
  ***
 # testando a linguagem mark down.
 utilizando **negrito**.
