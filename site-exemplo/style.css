@@ -1,6 +1,6 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 body {
@@ -81,8 +81,12 @@ body::before {
     background-color: #5100ff;
 }
 
+.contato ul{
+    line-height: 1.5;
+}
+
 .contato img{
     padding: auto;
-    width: 10px;
-    height: 10px;
+    width: 18px;
+    height: 18px;
 }
